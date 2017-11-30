@@ -18,7 +18,7 @@ a:hover {
   color: #113c00;
 }
 
-a:focus {
+nav a:focus {
   outline: 3px solid orange;
 }
 
