@@ -38,7 +38,7 @@
     </div>
   </header>
 
-  <section>
+  <main role="main" id="main">
     <div>
       <div class="about" id="about">
         <div class="embed embed-24by10">
@@ -53,44 +53,44 @@
         </div>
       </div>
     </div>
-  </section>
+  </main>
 
-  <main role="main" id="main">
-    <div>
+    <section id="shrubs">
+      <div>
       <div class="wrapper gutter-1-2 pad-t">
-        <h2 class="push-0 color-brand-dark exa" id="shrubs">Products</h2>
+        <h2 class="push-0 color-brand-dark exa">Products</h2>
         <p class="mega max-length not-centered push-1-8">If you do not tell us where we can buy a shrubbery, my friend and I will say… we will say… “nee”.</p>
         <ul class="grid list-group">
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
             <img class="img-flex push" src="images/shrub-1.jpg" alt="" aria-details="grassy-shrubs">
             <div class="gutter-1-4 push-1-4" id="grassy-shrubs">
               <h2 class="mega push-0">Grassy shrubs</h2>
-              <span>Grassy shrubs are pretty much grass, but I group them together in clumps so they look kinda like shrubs.</span>
+              <p>Grassy shrubs are pretty much grass, but I group them together in clumps so they look kinda like shrubs.</p>
             </div>
           </li>
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
             <img class="img-flex push" src="images/shrub-2.jpg" alt="" aria-details="shrubs-with-laurels">
             <div class="gutter-1-4 push-1-4" id="shrubs-with-laurels">
               <h2 class="mega push-0">Shrubs with laurels</h2>
-              <span>Shrubs with laurels have pretty little flowers that bloom sometime during the summer. They’re nice.</span>
+              <p>Shrubs with laurels have pretty little flowers that bloom sometime during the summer. They’re nice.</p>
             </div>
           </li>
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
             <img class="img-flex push" src="images/shrub-3.jpg" alt="" aria-details="two-level-shrub">
             <div class="gutter-1-4 push" id="two-level-shrub">
               <h2 class="mega push-0">Two-level shrubbery</h2>
-              <span>Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</span>
+              <p>Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</p>
             </div>
           </li>
         </ul>
       </div>
     </div>
-  </main>
+  </section>
 
-  <section>
+  <section id="prices">
     <div class="prices pad-t pad-b">
       <div class="wrapper gutter-1-2">
-        <h2 class="push-0 color-brand-dark exa" id="prices">Prices</h2>
+        <h2 class="push-0 color-brand-dark exa">Prices</h2>
         <span class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</span>
 
         <table>
@@ -129,10 +129,10 @@
     </div>
   </section>
 
-  <article>
+  <section id="news">
     <div class="news pad-t pad-b">
       <div class="wrapper gutter-1-2">
-        <h2 class="push-0 color-brand-dark exa" id="news">News</h2>
+        <h2 class="push-0 color-brand-dark exa">News</h2>
         <p class="mega max-length not-centered">Then, when you have found the shrubbery, you must cut down the mightiest tree in the forest… with… a herring!</p>
 
         <ol class="list-group">
@@ -151,37 +151,39 @@
         </ol>
       </div>
     </div>
-  </article>
+  </section>
 
-  <div class="contact pad-t pad-b">
-    <div class="wrapper">
-      <h2 class="push-0 color-brand-dark gutter-1-2 exa" id="contact">Contact</h2>
-      <p class="mega max-length not-centered gutter-1-2">We want… a shrubbery!</p>
+  <section id="contact">
+    <div class="contact pad-t pad-b">
+      <div class="wrapper">
+        <h2 class="push-0 color-brand-dark gutter-1-2 exa">Contact</h2>
+        <p class="mega max-length not-centered gutter-1-2">We want… a shrubbery!</p>
 
-      <form class="grid" method="post" action="#">
-        <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-          <label for="name" class="push-1-8">Your name</label>
-          <input id="name" required>
-        </div>
-        <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-          <label for="email" class="push-1-8">E-mail address</label>
-          <input type="text" id="email" required>
-        </div>
-        <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-          <label for="type-of-shrubbery" class="push-1-8">Type of shrubbery</label>
-          <select id="shrubbery" name="...">
-            <option>Two-level shrubbery</option>
-            <option>Small shrubbery</option>
-            <option>Shrubbery with laurels</option>
-            <option>Knighted shrubbery</option>
-          </select>
-        </div>
-        <div class="unit xs-1 text-center">
-          <button class="btn mega" type="submit">Send</button>
-        </div>
-      </form>
+        <form class="grid" method="post" action="#">
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="name" class="push-1-8">Your name</label>
+            <input id="name" required>
+          </div>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="email" class="push-1-8">E-mail address</label>
+            <input type="text" id="email" required>
+          </div>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="type-of-shrubbery" class="push-1-8">Type of shrubbery</label>
+            <select id="type-of-shrubbery" name="...">
+              <option>Two-level shrubbery</option>
+              <option>Small shrubbery</option>
+              <option>Shrubbery with laurels</option>
+              <option>Knighted shrubbery</option>
+            </select>
+          </div>
+          <div class="unit xs-1 text-center">
+            <button class="btn mega" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
+  </section>
 
   <footer role="contentinfo">
     <div class="footer pad-t-1-2 pad-b-1-2">
