@@ -15,7 +15,11 @@ a {
 }
 
 a:hover {
-  color: #113c00;
+  color: #000;
+}
+
+.link {
+  color: #174e29;
 }
 
 .masthead {
