@@ -86,7 +86,7 @@ td {
 @media only screen and (min-width: 35em) {
 
   .about-content {
-    bottom: 0;
+    bottom: 104em;
     position: absolute;
     width: 100%;
 
