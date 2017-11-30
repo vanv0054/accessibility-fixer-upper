@@ -18,10 +18,6 @@ a:hover {
   color: #113c00;
 }
 
-.nav a:focus {
-  outline: 3px solid orange;
-}
-
 .masthead {
   background-color: #568c36;
 
@@ -37,6 +33,10 @@ a:hover {
 .nav a {
   color: #fff;
   text-decoration: none;
+}
+
+.nav a:focus {
+  outline: 3px solid orange;
 }
 
 .nav a:hover {
